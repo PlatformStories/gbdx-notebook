@@ -22,7 +22,7 @@ RUN conda install --quiet --yes -c conda-forge ipyleaflet && \
 
 # Install packages in python2 environment
 RUN source $CONDA_DIR/bin/activate python2 && \
-    conda install --quiet --yes -c conda-forge gdal=2.1.3 cryptography ipyleaflet && \
+    conda install --quiet --yes -c conda-forge gdal=2.1.3 cryptography ipyleaflet rasterio=1.0a5 && \
     conda clean -tipsy && \
     pip install --upgrade pip && \
     pip install gbdxtools \

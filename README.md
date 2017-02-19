@@ -1,10 +1,9 @@
 # gbdx-notebook
 
-A GBDX notebook based on the [Jupyter SciPy notebook](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook)
-which also includes gdal, protogen and gdbxtools.
+A GBDX notebook server in Docker. Is is based on the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook)
+and also includes packages for local prototyping with geospatial raster data and launching workflows on GBDX (gdal, protogen, gdbxtools).
 
-This notebook allows local prototyping work as well as launching workflows on GBDX.
-It can be run locally or as part of [a Jupyter hub](https://github.com/digitalglobe/gbdx-jupyter-hub).
+The server can be run locally or as part of [a Jupyter hub](https://github.com/digitalglobe/gbdx-jupyter-hub).
 
 ## Local installation
 

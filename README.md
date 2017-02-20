@@ -24,12 +24,21 @@ docker build -t gbdx-notebook .
 
 For access to the protogen repo contact kostas.stamatiou@ditigitalglobe.com; fill in your github username and password next to `ENV PROTOUSER` and `ENV PROTOPASSWORD`, respectively. If you don't have access to the repo, comment out the corresponding lines in the Dockerfile.
 
-## Run the notebook
+## Run the notebook server
 
-To run the notebook with root privileges:
+To run the notebook server with root privileges:
 
 ```bash
 docker run -it -p 8888:8888 -e GRANT_SUDO=yes --user root gbdx-notebook
 ```
 
 You can find more options [here](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook).
+
+You can stop the server with Ctrl-C. If you want to restart a particular container which, e.g., contains work that you have saved:
+
+```bash
+docker start <container-id>
+docker attach <container-id>
+```
+
+

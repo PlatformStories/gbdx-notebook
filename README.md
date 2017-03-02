@@ -34,6 +34,8 @@ docker run -it -p 8888:8888 -e GRANT_SUDO=yes --user root gbdx-notebook
 
 You can find more options [here](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook).
 
+The Jupyter dashboard is accessible via your browser at ```localhost:8888```.
+
 You can stop the server with Ctrl-C. If you want to restart a particular container which, e.g., contains work that you have saved:
 
 ```bash

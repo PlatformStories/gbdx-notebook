@@ -22,7 +22,7 @@ cd gbdx-notebook
 docker build -t gbdx-notebook .
 ```
 
-For access to the protogen repo contact kostas.stamatiou@digitalglobe.com; fill in your github username and password next to `ENV PROTOUSER` and `ENV PROTOPASSWORD`, respectively. If you don't have access to the repo, comment out the corresponding lines in the Dockerfile.
+Access to the protogen repo is internal. Fill in your github username and password next to `ENV PROTOUSER` and `ENV PROTOPASSWORD`, respectively. If you don't have access to the repo, comment out the corresponding lines in the Dockerfile.
 
 ## Run the notebook server
 

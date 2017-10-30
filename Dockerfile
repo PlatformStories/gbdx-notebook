@@ -29,8 +29,7 @@ RUN source $CONDA_DIR/bin/activate python2 && \
                 shapely
 
 # Install protogen in python2 environment
-# Contact kostas.stamatiou@digitalglobe.com for access to the repo
-# or comment out the next block
+# If you don't have access, please comment out the next block
 ENV PROTOUSER
 ENV PROTOPASSWORD
 RUN source $CONDA_DIR/bin/activate python2 && \

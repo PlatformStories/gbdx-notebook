@@ -1,5 +1,7 @@
 # gbdx-notebook
 
+** This repository is not maintained. For a hosted notebook environment, please visit [https://notebooks.geobigdata.io](https://notebooks.geobigdata.io)**
+
 A GBDX notebook server in Docker. Is is based on the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook)
 and also includes packages for local prototyping with geospatial raster data and launching workflows on GBDX (gdal, rasterio, protogen, gdbxtools).
 
